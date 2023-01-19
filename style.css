@@ -1,0 +1,92 @@
+/* General */
+
+:root
+{
+    font-size: 62.5%;
+}
+
+body
+{
+    font-size:1.6rem;
+}
+
+/* Part 1 */
+
+.part1 li
+{
+    list-style: none;
+}
+
+.part1 ul li::before
+{
+    display:inline-block;
+    /* width: 2rem;
+    height: 2rem; */
+    margin-right:1rem;
+    background-size:2rem 2rem;
+    width: 2rem;
+    height: 2rem;
+    content:'';
+    background-image: url(./images/quote.png);
+}
+
+.part1 ul li::after
+{
+    display:inline-block;
+    /* width: 2rem;
+    height: 2rem; */
+    margin-left:1rem;
+    background-size:2rem 2rem;
+    width: 2rem;
+    height: 2rem;
+    content:'';
+    background-image: url(./images/quote.png);
+}
+
+/* Part 2 */
+
+.pdf::after
+{
+    display:inline-block;
+    /* width: 2rem;
+    height: 2rem; */
+    margin-left:1rem;
+    background-size:2rem 2rem;
+    width: 2rem;
+    height: 2rem;
+    content:'';
+    background-image: url(./images/pdf.png);
+}
+
+.xls::after
+{
+    display:inline-block;
+    /* width: 2rem;
+    height: 2rem; */
+    margin-left:1rem;
+    background-size:2rem 2rem;
+    width: 2rem;
+    height: 2rem;
+    content:'';
+    background-image: url(./images/ms-excel.png);
+}
+
+.doc::after
+{
+    display:inline-block;
+    /* width: 2rem;
+    height: 2rem; */
+    margin-left:1rem;
+    background-size:2rem 2rem;
+    width: 2rem;
+    height: 2rem;
+    content:'';
+    background-image: url(./images/ms-word.png);
+}
+
+/* Part 3 */
+
+.oben
+{
+    
+}
